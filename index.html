@@ -1,71 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aveen Kinsella | Home Page</title>
-    <meta name="description" content="Welcome to my website that showcases some of my digital creations.">
+    <title>Home | Aveen Kinsella Web Page</title>
+    <meta name="description" content="Aveen Kinsella Web Page.">
 
-    <link rel="stylesheet" href="assets/css/global.css">
-
-
+	<!-- Preload hero image -->
 
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-5VMVNJDB89"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/lunadoge.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
 
-  gtag('config', 'G-5VMVNJDB89');
-</script>
+	<!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,700;1,200&display=swap" rel="stylesheet"> 
 
-<!--Cookies Message-->
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+	<!-- Font Awesome 5 icons -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+
+    <!-- Light Awesome icons -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+    <!-- Google Material Design Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    rel="stylesheet">
 
 </head>
 
+
 <body>
 
-    <h1>Welcome</h1>
-    <h2>Aveen Kinsella</h2>
+    <!-- navigation menu -->
+    <nav></nav>
+
+    <!-- header -->
+    <header class="hero-block">
+        <div class="hero-text-container">
+            <h1 class="text-shadow fade-in">Aveen Kinsella</h1>
+            <h2 class="text-shadow fade-in">Web Designer and Developer</h2>
+            <div class="container-btn text-left-mobile"><a href="portfolio/index.html" class="btn btn-secondary btn-rounded"><i class="fas fa-book-open"></i> My Portfolio</a>  <a href="contact/index.html" class="btn btn-primary btn-rounded"><i class="far fa-envelope"></i> Contact</a></div>
+        </div>
+            <div class="hero-bg-media">
+            <img src="assets/img/flower.png" alt="Header">
+            </div>
+        <div class="bg-overlay"></div>
+    </header>
+
+    <!-- main content with sections -->
+    <main>
+        
+               
+
+            
+	<section class="container-flex theme-two">
+		<div class="col-1 text-center">
+			<h2>Recent Projects</h2>
+			<h3>Below you can see some examples of my Previous Work</h3>
+		</div>
+
+		<div class="col-3">
+			<figure><img src="assets/img/project-van-gogh.png" alt="Vincent Van Gogh"></figure>
+			<h3>Vincent Van Gogh</h3>
+			<p>A summary of the life and work of Dutch artist Vincent van Gogh with an embeded video from YouTube</p>
+		<a href="exercises/page-5.html" class="btn btn-primary btn-rounded"><i class="fas fa-arrow-right"></i><span>View Project</span></a></div>
+
+		<div class="col-3">
+			<figure><img src="assets/img/project-smoothie.jpg" alt="Smooth Smoothies"></figure>
+			<h3>Smooth Smoothies</h3>
+			<p>A multi-column, flexbox-based page layout and hero image with a tinted overlay.</p>
+		<a href="portfolio/smoothies/index.html" class="btn btn-primary btn-rounded"><i class="fas fa-arrow-right"></i><span>View Project</span></a></div>
+
+		<div class="col-3">
+			<figure><img src="assets/img/project-fashion.jpg" alt="Snazzy Fashion"></figure><h3>Snazzy Fashion</h3><p>A web page for a fashion retailer with a background video that plays in a continuous loop.</p>
+		<a href="portfolio/fashion/index.html" class="btn btn-primary btn-rounded"><i class="fas fa-arrow-right"></i><span>View Project</span></a></div>
+	</section>
+
+    </main>
+
+    <!-- footer -->
+    <footer>
     
-    <h3>Sample Web Pages</h3>
+            <h2>Aveen Kinsella Web Designer</h2>
     
-    <p><a href="exercises/page-1.html">A Tale of Two Cities</a></p>
-    <p><a href="exercises/page-2.html">IBAT Chocolates</a></p>
-    <p><a href="exercises/page-3.html">Prince & Purple Rain</a></p>
-    <p><a href="exercises/page-4.html">Lorem Ipsum Text</a></p>
-    <p><a href="exercises/page-5.html">Vincent van Gogh</a></p> 
-<p><a href="exercises/page-6.html">Irish Tourism</a></p> 
-<p><a href="exercises/page-7.html">Smoothies</a></p> 
-<p><a href="exercises/page-8.html">Software Analytics</a></p> 
-<p><a href="exercises/page-9.html">The Box Model</a></p> 
-<p><a href="exercises/page-10.html">Web Page With Panels</a></p>
-<p><a href="exercises/hero-text.html">Hero block with colour background</a></p> 
-<p><a href="exercises/hero-image.html">Hero block with background image</a></p>
-<p><a href="exercises/hero-video.html">Hero block with background video</a></p> 
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
-<script>
-window.cookieconsent.initialise({
-  "palette": {
-    "popup": {
-      "background": "#000"
-    },
-    "button": {
-      "background": "#f1d600"
-    }
-  },
-  "content": {
-    "href": "https://aveenkinsella.github.io/privacy.html"
-  }
-});
-</script>
-
+            <h3>Excellence in Digital Design</h3>
+    
+            <ul class="footer-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+    
+            <ul class="footer-icons">
+                <li><a href="https://www.linkedin.com/in/aveenkinsella/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-github-square"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
+            </ul>
+    
+            <p class="privacy"><a href="..privacy.html">Privacy &amp; Legal</a></p>
+    
+        </footer>
+   
 </body>
 </html>

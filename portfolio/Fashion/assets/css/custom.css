@@ -151,13 +151,13 @@ body { font-family: 'Playfair Display', serif }
 .theme-one li { color: var(--white-000) }
 .theme-one a:link { color: var(--white-000) } 
 .theme-one a:visited { color: var(--white-000) }
-.theme-one a:focus { color: var(--ontrend-500) } 
-.theme-one a:hover { color: var(--ontrend-500) } 
-.theme-one a:active { color: var(--ontrend-500) }
-.theme-one a:link { background-color: var(--green-100) } 
-.theme-one a:visited { background-color: var(--green-100) } 
-.theme-one a:link { background-color: var(--green-100) } 
-.theme-one a:visited { background-color: var(--green-100) } 
+.theme-one a:focus { color: var(--green-100) } 
+.theme-one a:hover { color: var(--green-100) } 
+.theme-one a:active { color: var(--green-100) }
+.theme-one a:link { background-color: var(--ontrend-500) } 
+.theme-one a:visited { background-color: var(--ontrend-500) } 
+.theme-one a:link { background-color: var(--ontrend-500) } 
+.theme-one a:visited { background-color: var(--ontrend-500) } 
 
 
 .theme-two { background-color: var(--gray-200) }
