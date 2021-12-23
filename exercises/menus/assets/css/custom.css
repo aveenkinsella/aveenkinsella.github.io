@@ -243,24 +243,26 @@ section.theme-one > p.standfirst {
 .container-menu a:focus,
 .container-menu a:hover,
 .container-menu a:active { color: var(--green-300) }
-.container-menu.menu-desktop { background-color: var(--pink-100) }
-.container-menu.menu-mobile { background-color: var(--pink-100) }
-.container-menu.menu-mobile ul.mobile-display { background-color: var(--pink-100) }
 .container-menu a#btn-cta:link,
 .container-menu a#btn-cta:visited { background-color: var(--green-400) }
 .container-menu a#btn-cta:link,
-.container-menu a#btn-cta:visited { border-color: var(--green-400) }
+.container-menu a#btn-cta:visited { border-color: var(--green-500) }
 .container-menu a#btn-cta:focus,
 .container-menu a#btn-cta:hover,
-.container-menu a#btn-cta:active { background-color: var(--green-300) }
+.container-menu a#btn-cta:active { border-color: var(--green-400) }
 .container-menu a#btn-cta:focus,
 .container-menu a#btn-cta:hover,
-.container-menu a#btn-cta:active { border-color: var(--green-300) }
-.container-menu a#btn-cta:link,
-.container-menu a#btn-cta:visited { color: var(--white-000) }
-.container-menu a#btn-cta:focus,
-.container-menu a#btn-cta:hover,
-.container-menu a#btn-cta:active { color: var(--black-000) }
+.container-menu a#btn-cta:active { color: var(--gray-200) }
 .container-menu .item-icon .bar1,.container-menu .item-icon .bar2,.container-menu .item-icon .bar3 { background-color: var(--green-400) }
+.container-menu.menu-sticky.menu-desktop.menu-on-scroll,
+.container-menu.menu-sticky.menu-mobile.menu-on-scroll,
+.container-menu.menu-sticky.menu-mobile ul.mobile-display { background-color: var(--green-100) }
+.container-menu.menu-desktop { background-color: var(--gray-200) }
+.container-menu.menu-mobile { background-color: var(--gray-200) }
+.container-menu.menu-mobile ul.mobile-display { background-color: var(--gray-200) }
+.container-menu.menu-sticky.menu-desktop.menu-on-scroll,
+.container-menu.menu-sticky.menu-mobile.menu-on-scroll,
+.container-menu.menu-sticky.menu-mobile ul.mobile-display { background-color: var(--pink-100) }
+
 
 
