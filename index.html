@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Aveen Kinsella Web Page</title>
-    <meta name="description" content="Aveen Kinsella Web Page.">
+    <title>Contact Page | Aveen Kinsella</title>
+    <meta name="description" content="Sample web page description goes here.">
 
 	<!-- Preload hero image -->
 
 
 	<!-- Stylesheets -->
-    <link rel="stylesheet" href="assets/css/lunadoge.css" />
-    <link rel="stylesheet" href="assets/css/custom.css" />
+    <link rel="stylesheet" href="../assets/css/lunadoge.css" />
+    <link rel="stylesheet" href="../assets/css/custom.css" />
 
 	<!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,18 +32,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
     rel="stylesheet">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WPBX0WQ6TT"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-WPBX0WQ6TT');
-</script>
-
-
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 
 </head>
 
@@ -51,101 +40,113 @@
 <body>
 
     <!-- navigation menu -->
-    
-      
-    
-            
-    
-    
     <nav class="container-menu menu-desktop menu-sticky">
-      <a href="#"><img src="assets/img/aveenkinsellalogo.png" alt="website logo"></a>
-      <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#portfolio/index.html">Portfolio</a></li>            
-          <li><a href="#contact/index.html" id="btn-cta" class="btn-rounded"><span>Contact</span><i class="fas fa-arrow-right"></i></a></li>
-      </ul>
-      <div class="item-icon">
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
-      </div>
-  </nav>
-
-
-
-        
-
-  
+        <a href="#"><img src="../assets/img/aveenkinsellalogo.png" alt="website logo"></a>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../portfolio/index.html">Portfolio</a></li>            
+            <li><a href="#" id="btn-cta" class="btn-rounded"><span>Contact</span><i class="fas fa-arrow-right"></i></a></li>
+        </ul>
+        <div class="item-icon">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </nav>
 
     <!-- header -->
-    <header class="hero-block">
-        <div class="hero-text-container">
-            <h1 class="text-shadow fade-in">Aveen Kinsella</h1>
-            <h2 class="text-shadow fade-in">Web Designer and Developer</h2>
-            <div class="container-btn text-left-mobile"><a href="portfolio/index.html" class="btn btn-secondary btn-rounded"><i class="fas fa-book-open"></i> My Portfolio</a>  <a href="contact/index.html" class="btn btn-primary btn-rounded"><i class="far fa-envelope"></i> Contact</a></div>
+    <header class="hero-block hero-half half-img-right text-center-mobile">
+
+        <div class="col-2">
+            <div class="hero-text-container">
+            <h1>Reach Out</h1>
+            <h2>Use the form below to let me know a little more about your objectives and I'll get back to you.</h2>
+            <div class="container-btn"><a href="../portfolio/index.html" class="btn btn-primary btn-rounded"><i class="fas fa-arrow-right"></i><span>Portfolio</span></a></div>
         </div>
+    
+        
+        </div>
+    
+    <div class="col-2">
             <div class="hero-bg-media">
-            <img src="assets/img/flower.png" alt="Header">
+            <img src="../assets/img/reachout.png" alt="Reach Out">
             </div>
-        <div class="bg-overlay"></div>
+        </div>
+    
     </header>
 
     <!-- main content with sections -->
     <main>
         
-               
 
-            
-	<section class="container-flex theme-two">
-		<div class="col-1 text-center">
-			<h2>Recent Projects</h2>
-			<h3>Below you can see some examples of my Previous Work</h3>
-		</div>
 
-		<div class="col-3">
-			<figure><img src="assets/img/project-van-gogh.png" alt="Vincent Van Gogh"></figure>
-			<h3>Vincent Van Gogh</h3>
-			<p>A summary of the life and work of Dutch artist Vincent van Gogh with an embeded video from YouTube</p>
-		<a href="exercises/page-5.html" class="btn btn-primary btn-rounded"><i class="fas fa-arrow-right"></i><span>View Project</span></a></div>
+        <section class="container-contact-form">
 
-		<div class="col-3">
-			<figure><img src="assets/img/project-smoothie.jpg" alt="Smooth Smoothies"></figure>
-			<h3>Smooth Smoothies</h3>
-			<p>A multi-column, flexbox-based page layout and hero image with a tinted overlay.</p>
-		<a href="portfolio/smoothies/index.html" class="btn btn-primary btn-rounded"><i class="fas fa-arrow-right"></i><span>View Project</span></a></div>
+            <!-- Contact form starts here -->
+            <form id="contact-form" name="contact-form" accept-charset="utf-8" method="post" action="https://formspree.io/f/xgedwvop">
 
-		<div class="col-3">
-			<figure><img src="assets/img/project-fashion.jpg" alt="Snazzy Fashion"></figure><h3>Snazzy Fashion</h3><p>A web page for a fashion retailer with a background video that plays in a continuous loop.</p>
-		<a href="portfolio/fashion/index.html" class="btn btn-primary btn-rounded"><i class="fas fa-arrow-right"></i><span>View Project</span></a></div>
-	</section>
+                <div class="contact-form-upper text-center">
+                    <h2>Get in Touch</h2>
+                    <p>Fill out the form below to reach out and chat about any upcoming projects or ideas you'd like to discuss.</p>
+                </div>
+
+                <!-- Begin contact form fields -->
+
+                <div class="flex-row">
+                    <div class="item-name">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" name="name" id="full-name" placeholder="Your First and Last Name." required="">
+                    </div>
+                    <div class="item-email">
+                        <label for="email-address">Email</label>
+                        <input type="email" name="_replyto" id="email-address" placeholder="Your Email Address." required="">
+                    </div>
+                </div>
+
+                <div class="flex-row">
+                    <div class="item-textarea">
+                        <label for="message">Message</label>
+                        <textarea rows="5" name="message" id="message" placeholder="Your Message." required=""></textarea>
+                    </div>
+
+                    <div class="item-btn">
+                        <button id="btn-submit" type="submit"><span>Send</span><i class="fas fa-arrow-circle-right"></i></button> 
+                    </div>
+                </div>
+
+                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                <!-- End contact form fields -->
+
+            </form><!-- Contact form ends here -->
+    </section><!-- End container for contact form -->
 
     </main>
 
     <!-- footer -->
     <footer>
     
-            <h2>Aveen Kinsella Web Designer</h2>
-    
-            <h3>Excellence in Digital Design</h3>
-    
-            <ul class="footer-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="portfolio/index.html">Portfolio</a></li>
-                <li><a href="contact/index.html">Contact</a></li>
-            </ul>
-    
-            <ul class="footer-icons">
-                <li><a href="https://www.linkedin.com/in/aveenkinsella/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-               
-                <li><a href="#" target="_blank"><i class="fab fa-github-square"></i></a></li>
-                
-            </ul>
-    
-            <p class="privacy"><a href="privacy.html">Privacy &amp; Legal</a></p>
-    
-        </footer>
+        <h2>Aveen Kinsella Web Designer</h2>
 
-        <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+        <h3>Excellence in Digital Design</h3>
+
+        <ul class="footer-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../portfolio/index.html">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+        <ul class="footer-icons">
+            <li><a href="https://www.linkedin.com/in/aveenkinsella/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        
+            <li><a href="#" target="_blank"><i class="fab fa-github-square"></i></a></li>
+            
+        </ul>
+
+        <p class="privacy"><a href="../privacy.html">Privacy &amp; Legal</a></p>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
 <script>
 window.cookieconsent.initialise({
   "palette": {
