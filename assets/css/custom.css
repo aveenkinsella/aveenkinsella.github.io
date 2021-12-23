@@ -194,6 +194,34 @@ header a.btn-primary:active { border-color: var(--black-000) }
 #contact-form p { color: var(--green-900) }
 
 
+.container-menu a#btn-cta:link,
+.container-menu a#btn-cta:visited { color: var(--white-000) }
+.container-menu a#btn-cta:link,
+.container-menu a#btn-cta:visited { background-color: var(--green-400) }
+.container-menu a#btn-cta:focus,
+.container-menu a#btn-cta:hover,
+.container-menu a#btn-cta:active { background-color: var(--green-300) }
+.container-menu a#btn-cta:link,
+.container-menu a#btn-cta:visited { border-color: var(--green-500) }
+.container-menu a#btn-cta:focus,
+.container-menu a#btn-cta:hover,
+.container-menu a#btn-cta:active { border-color: var(--green-400) }
+.container-menu.menu-sticky.menu-desktop.menu-on-scroll,
+.container-menu.menu-sticky.menu-mobile.menu-on-scroll,
+.container-menu.menu-sticky.menu-mobile ul.mobile-display { background-color: var(--pink-100) }
+.container-menu.menu-on-scroll .item-icon .bar1,.container-menu.menu-on-scroll .item-icon .bar2,.container-menu.menu-on-scroll .item-icon .bar3 { background-color: var(--green-400) }
+.container-menu.menu-desktop { background-color: var(--trans-000) }
+.container-menu.menu-mobile { background-color: var(--trans-000) }
+.container-menu.menu-mobile ul.mobile-display { background-color: var(--trans-000) }
+.container-menu a:link,
+.container-menu a:visited { color: var(--white-000) }
+.container-menu a:focus,
+.container-menu a:hover,
+.container-menu a:active { color: var(--gray-400) }
+
+
+
+
 
 
 
