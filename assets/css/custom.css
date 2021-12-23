@@ -195,7 +195,7 @@ header a.btn-primary:active { border-color: var(--black-000) }
 
 
 .container-menu a#btn-cta:link,
-.container-menu a#btn-cta:visited { color: var(--white-000) }
+.container-menu a#btn-cta:visited { color: var(--gray-200) }
 .container-menu a#btn-cta:link,
 .container-menu a#btn-cta:visited { background-color: var(--green-400) }
 .container-menu a#btn-cta:focus,
@@ -214,7 +214,7 @@ header a.btn-primary:active { border-color: var(--black-000) }
 .container-menu.menu-mobile { background-color: var(--trans-000) }
 .container-menu.menu-mobile ul.mobile-display { background-color: var(--trans-000) }
 .container-menu a:link,
-.container-menu a:visited { color: var(--white-000) }
+.container-menu a:visited { color: var(--gray-200) }
 .container-menu a:focus,
 .container-menu a:hover,
 .container-menu a:active { color: var(--gray-400) }
